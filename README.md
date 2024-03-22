@@ -15,7 +15,12 @@ This code is inspired from the following publication:
 ### Create data
 
 The HOPE dataset can be downloaded from : https://github.com/LCS2-IIITD/SPARTA_WSDM2022/tree/main
-The data can then be formatted using the create_sata notebook
+The data can then be formatted using the create_data notebook
+
+### Set up LM studio
+- Install LM Studio from https://lmstudio.ai/
+- Download the model from LM studio : TheBloke/Mistral-7B-Instruct-v0.2-GGUF
+- Launch a local inference server from LM studio
 
 ###  Run Therapist Behavior Inference
 ```
